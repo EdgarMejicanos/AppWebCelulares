@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers\User;
+namespace App\Controllers\Celular;
 use CodeIgniter\Controller;
 use App\Models\celularModel;
 use Config\Services;
@@ -51,7 +51,7 @@ class Add extends Controller
         $session = Services::session();
         $session->setFlashdata("success", "Celular guardado correctamente");
     
-            return redirect()->to("celulares");
+            return redirect()->to("celu");
         }
 
        

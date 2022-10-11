@@ -7,9 +7,27 @@
 
 		<title>Listado de Celulares</title>
 		<link href="<?= base_url('css/style.css'); ?>" rel="stylesheet">
+		<link href="<?= base_url('css/inicio.css');?>" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap-grid-only@1.0.0/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
 	</head>
 	<body>
+
+	<nav>
+  <ul>
+    <li>
+      <a href="<?php echo base_url("/inicio")?>">Inicio</a>
+    </li>
+    <li>
+      <a href="<?php echo base_url("/user")?>">Trabajadores</a>
+    </li>
+    <li>
+      <a href="<?php echo base_url("/celu")?>">Celulares</a>
+    </li>
+    <li>
+      <a href="<?php echo base_url("/")?>">Salir</a>
+    </li>
+  </ul>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9">

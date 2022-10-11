@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers\User;
+namespace App\Controllers\Celular;
 use CodeIgniter\Controller;
 use App\Models\celularModel;
 use Config\Services;
@@ -12,7 +12,7 @@ class Main extends Controller
         //return view('bienvenida');
         //print_r($userModel -> readUsers());
         $celularModel = new CelularModel();
-        $data["Celular"] = $celularModel -> readCelS();
+        $data["celulares"] = $celularModel -> readCelS();
 
         return view ("celular/main", $data);
     }

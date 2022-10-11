@@ -20,7 +20,7 @@
       <a href="<?php echo base_url("/user")?>">Trabajadores</a>
     </li>
     <li>
-      <a href="#">Celulares</a>
+      <a href="<?php echo base_url("/celu")?>">Celulares</a>
     </li>
     <li>
       <a href="<?php echo base_url("/")?>">Salir</a>

@@ -27,7 +27,7 @@
 					<div class="card">
 						<div class="head">
 							<h1>Nuevo Celular</h1>
-							<a class="back" href="<?= base_url('celulares');?>">volver</a>
+							<a class="back" href="<?= base_url('celu');?>">volver</a>
 						</div>
 						<div class="col-lg-6">
 							<div class="f-group">

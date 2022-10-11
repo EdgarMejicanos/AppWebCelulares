@@ -45,18 +45,19 @@ $routes->add('usuario/update/(:num)', 'User\Edit::save/$1');
 $routes->add('usuario/delete/(:num)', 'User\Main::delete/$1');
 $routes->add('usuario/(:num)', 'User\Edit::index/$1');
 
-$routes->get('/', 'Home::index');
-$routes->get('/inicio', 'Home::inicio');
-$routes->post('/login', 'Home::ingresar');
-
-$routes->get('/listado', 'Celular\Main::index');
-
+$routes->get('/celu', 'Celular\Main::index');
 $routes->add('celulares', 'Celular\Main::index');
 $routes->add('celular', 'Celular\Add::index');
 $routes->add('celular/save', 'Celular\Add::save');
 $routes->add('celular/update/(:num)', 'Celular\Edit::save/$1');
 $routes->add('celular/delete/(:num)', 'Celular\Main::delete/$1');
 $routes->add('celular/(:num)', 'Celular\Edit::index/$1');
+
+$routes->get('/', 'Home::index');
+$routes->get('/inicio', 'Home::inicio');
+$routes->post('/login', 'Home::ingresar');
+
+
 
 /*
  * --------------------------------------------------------------------

@@ -1,0 +1,356 @@
+CRITICAL - 2022-10-10 03:50:25 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-10-10 03:50:25 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(282): include_once('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp2\htdocs\proyecto2_celular\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(251): include('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-10 03:53:45 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-10-10 03:53:45 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(282): include_once('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp2\htdocs\proyecto2_celular\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(251): include('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-10 04:05:26 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-10-10 04:05:26 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(282): include_once('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp2\htdocs\proyecto2_celular\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(251): include('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-10 04:06:46 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-10-10 04:06:46 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(282): include_once('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp2\htdocs\proyecto2_celular\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(251): include('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-10 05:15:56 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-10-10 05:15:56 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(282): include_once('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp2\htdocs\proyecto2_celular\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(251): include('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-10 05:16:39 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-10-10 05:16:39 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(282): include_once('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp2\htdocs\proyecto2_celular\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(251): include('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-10 05:17:40 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-10-10 05:17:40 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp2\htdocs\proyecto2_celular\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(282): include_once('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\proyecto2_celular\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp2\htdocs\proyecto2_celular\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(251): include('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(254): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp2\htdocs\proyecto2_celular\system\Debug\Exceptions.php(138): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-10 13:05:30 --> Class "App\Controllers\Validacion" not found
+in APPPATH\Controllers\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:12:13 --> Undefined array key "usuario"
+in APPPATH\Controllers\Home.php on line 29.
+ 1 APPPATH\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', 'APPPATH\\Controllers\\Home.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:27:09 --> Undefined property: App\Controllers\Home::$validacion
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$validacion', 'APPPATH\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:27:25 --> Undefined property: App\Controllers\Home::$validacion
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$validacion', 'APPPATH\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:28:09 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 9.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:29:18 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:30:24 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:32:38 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:33:36 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:35:22 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:40:02 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:40:09 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:46:51 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:54:01 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 11.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 13:54:50 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:00:46 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:02:28 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:04:58 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:05:04 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Calculos.php on line 10.
+ 1 APPPATH\Controllers\Home.php(35): App\Libraries\Calculos->calcular([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 23:49:10 --> Undefined variable $users
+in APPPATH\Views\user\main.php on line 54.
+ 1 APPPATH\Views\user\main.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\user\\main.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('user/main', [], true)
+ 5 APPPATH\Controllers\Celular\Main.php(17): view('user/main', [])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Celular\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Celular\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 23:49:12 --> Undefined variable $users
+in APPPATH\Views\user\main.php on line 54.
+ 1 APPPATH\Views\user\main.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\user\\main.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('user/main', [], true)
+ 5 APPPATH\Controllers\Celular\Main.php(17): view('user/main', [])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Celular\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Celular\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 23:49:12 --> Undefined variable $users
+in APPPATH\Views\user\main.php on line 54.
+ 1 APPPATH\Views\user\main.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\user\\main.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('user/main', [], true)
+ 5 APPPATH\Controllers\Celular\Main.php(17): view('user/main', [])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Celular\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Celular\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 23:49:51 --> Undefined variable $celulares
+in APPPATH\Views\celular\main.php on line 36.
+ 1 APPPATH\Views\celular\main.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $celulares', 'APPPATH\\Views\\celular\\main.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\celular\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('celular/main', [], true)
+ 5 APPPATH\Controllers\Celular\Main.php(17): view('celular/main', [])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Celular\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Celular\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 23:50:06 --> Undefined variable $celulares
+in APPPATH\Views\celular\main.php on line 36.
+ 1 APPPATH\Views\celular\main.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $celulares', 'APPPATH\\Views\\celular\\main.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\celular\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('celular/main', [], true)
+ 5 APPPATH\Controllers\Celular\Main.php(17): view('celular/main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Celular\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Celular\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 23:50:08 --> Undefined variable $celulares
+in APPPATH\Views\celular\main.php on line 36.
+ 1 APPPATH\Views\celular\main.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $celulares', 'APPPATH\\Views\\celular\\main.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\celular\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('celular/main', [], true)
+ 5 APPPATH\Controllers\Celular\Main.php(17): view('celular/main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Celular\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Celular\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 23:50:08 --> Undefined variable $celulares
+in APPPATH\Views\celular\main.php on line 36.
+ 1 APPPATH\Views\celular\main.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $celulares', 'APPPATH\\Views\\celular\\main.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\celular\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('celular/main', [], true)
+ 5 APPPATH\Controllers\Celular\Main.php(17): view('celular/main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Celular\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Celular\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
